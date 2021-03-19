@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+  <body> 
+    <header> 
+      <section class="top-header py-2">
+        <div class="menu px-0 px-md-5">
+          <div class="d-none d-md-flex"><a href="/my-account">Tài khoản của tôi</a>
+            <div class="mx-2">-</div><a href="/order-status">Trạng thái đơn hàng</a>
+            <div class="mx-2">-</div><a href="/favorite-list">Danh sách ưa thích </a>
+            <div class="mx-2">-</div><a href="/cart">Giỏ hàng</a>
+            <div class="mx-2">-</div><a href="/login">Đăng nhập</a>
+            <div class="mx-2">-</div><a href="/register">Đăng ký</a>
+          </div>
+          <div class="d-block d-md-none"> <i class="fa fa-bars mx-3"></i></div>
+        </div>
+        <div class="search-bar px-0 px-md-5">
+          <input type="text" placeholder="Tìm kiếm ở đây ..."><i class="fa fa-search"></i>
+        </div>
+      </section>
+      <section class="title"> </section>
+      <section class="bottom-header"> 
+        <div class="container"> 
+          <div class="row"> 
+            <div class="col-2"> </div>
+            <div class="menu col-10 d-none d-md-flex"><a href="/">TRANG CHỦ</a><a class="active" href="/red-wine">RƯỢU VANG ĐỎ</a><a href="/white-wine">RƯỢU TRẮNG</a><a href="/champagne">CHAMPAGNE</a><a href="/information">THÔNG TIN</a><a href="/blog">BLOG</a><a href="/contact">LIÊN HỆ</a>
+            </div>
+            <div class="d-block d-md-none"> <i class="fa fa-bars"></i></div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main> 
+      <div class="introduction">
+        <div class="content">
+          <div class="title-container">
+            <div class="title">GIỚI THIỆU</div><img src="./../assets/images/title-dark.png" alt=""/>
+          </div>
+          <p>Vestibulum orci dui, condimentum et sapien ut, lobortis ullamcorper turpis. In vitae sapien vel lectus tincidunt gravida. Aenean scelerisque est ac lorem auctor, non bibendum orci commodo. Nam a iaculis orci, eu pellentesque neque. Phasellus dui sapien, feugiat dictum nulla nec, iaculis fringilla est. Proin feugiat, erat at rutrum pretium, nunc nibh hendrerit risus, in mollis nisi ante non erat. Nam gravida nisl et lacus aliquet, sit amet suscipit erat auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vehicula laoreet feugiat. Ut ut sollicitudin quam, sed lacinia urna. Nullam scelerisque et erat eget condimentum.</p>
+          <div class="buttonText">XEM THÊM</div>
+        </div>
+      </div>
+      <div class="bg-grapes"><img src="./../assets/images/grapes.jpg" alt="green grapes"></div>
+      <div class="main-product container-fluid"> 
+        <div class="row">
+          <div class="col-12 col-sm-6 img"><img src="./../assets/images/df3218bb45274009c6c3d5de8a6b98bf.jpg" alt="alpatago champagne"></div>
+          <div class="col-12 col-sm-6 detail"> 
+            <div class="title">RƯỢU NHO NĂM 1987</div><img src="./../assets/images/titleleft-dark.png" alt="">
+            <div class="price"> <span>330.000</span><sup>đ</sup></div>
+            <div class="buttonText">ADD TO CART</div>
+            <p class="description">Một hợp chất có trong rượu vang được gọi là Resveratro còn có khả năng ngăn chặn mật độ ôxy hóa cùa protein béo.</p>
+            <div class="data">
+              <div>334<br>ngày</div>
+              <div>26<br>giờ</div>
+              <div>60<br>phút</div>
+              <div>15<br>giây</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-container">
+        <div class="title">SẢN PHẨM MỚI</div><img src="./../assets/images/title-dark.png" alt=""/>
+      </div>
+      <div class="carousel slide" id="carouselExampleControls" data-ride="carousel"></div>
+      <div class="carousel slide" id="newsProductCarousel" data-ride="carousel">
+        <div class="carousel-inner container-fluid">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row"> 
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/1.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HUẾ</div>
+                  <div class="price"> <span class="originPrice"><span>400.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>350.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/2.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG ĐÀ LẠT</div>
+                  <div class="price"> <span class="originPrice"><span>450.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>300.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/3.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HẢI PHÒNG</div>
+                  <div class="price"> <span class="originPrice"><span>300.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>250.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/4.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HÀ TĨNH</div>
+                  <div class="price"> <span class="originPrice"><span>200.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>150.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row"> 
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/5.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HUẾ</div>
+                  <div class="price"> <span class="originPrice"><span>400.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>350.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/6.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG ĐÀ LẠT</div>
+                  <div class="price"> <span class="originPrice"><span>450.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>300.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/7.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HẢI PHÒNG</div>
+                  <div class="price"> <span class="originPrice"><span>300.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>250.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/8.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HÀ TĨNH</div>
+                  <div class="price"> <span class="originPrice"><span>200.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>150.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row"> 
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/9.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HUẾ</div>
+                  <div class="price"> <span class="originPrice"><span>400.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>350.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/10.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG ĐÀ LẠT</div>
+                  <div class="price"> <span class="originPrice"><span>450.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>300.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/11.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HẢI PHÒNG</div>
+                  <div class="price"> <span class="originPrice"><span>300.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>250.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/12.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HÀ TĨNH</div>
+                  <div class="price"> <span class="originPrice"><span>200.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>150.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="images container-fluid">
+        <div class="row"> 
+          <div class="img col-6 col-md-3 p-0"><img src="./../assets/images/47bb1d096966d29c98926a156318c767.jpg" alt="champagne wine"></div>
+          <div class="img col-6 col-md-3 p-0"><img src="./../assets/images/Depositphotos_3010981_original1.jpg" alt="champagne wine"></div>
+          <div class="img col-6 col-md-3 p-0"><img src="./../assets/images/Depositphotos_6971969_original-1240x698.jpg" alt="champagne wine"></div>
+          <div class="img col-6 col-md-3 p-0"><img src="./../assets/images/8bd367294fd54ff78565e6a73329e848.jpg" alt="champagne wine"></div>
+          <div class="img col-6 col-md-3 p-0"><img src="./../assets/images/Depositphotos_3010981_original1.jpg" alt="champagne wine"></div>
+          <div class="img col-6 col-md-3 p-0"><img src="./../assets/images/47bb1d096966d29c98926a156318c767.jpg" alt="champagne wine"></div>
+          <div class="img col-6 col-md-3 p-0"><img src="./../assets/images/8bd367294fd54ff78565e6a73329e848.jpg" alt="champagne wine"></div>
+          <div class="img col-6 col-md-3 p-0"><img src="./../assets/images/Depositphotos_6971969_original-1240x698.jpg" alt="champagne wine"></div>
+        </div>
+      </div>
+      <div class="title-container">
+        <div class="title">SẢN PHẨM BÁN CHẠY</div><img src="./../assets/images/title-dark.png" alt=""/>
+      </div>
+      <div class="carousel slide" id="carouselExampleControls" data-ride="carousel"></div>
+      <div class="carousel slide" id="newsProductCarousel" data-ride="carousel">
+        <div class="carousel-inner container-fluid">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row"> 
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/1.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HUẾ</div>
+                  <div class="price"> <span class="originPrice"><span>400.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>350.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/2.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG ĐÀ LẠT</div>
+                  <div class="price"> <span class="originPrice"><span>450.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>300.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/3.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HẢI PHÒNG</div>
+                  <div class="price"> <span class="originPrice"><span>300.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>250.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/4.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HÀ TĨNH</div>
+                  <div class="price"> <span class="originPrice"><span>200.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>150.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row"> 
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/5.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HUẾ</div>
+                  <div class="price"> <span class="originPrice"><span>400.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>350.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/6.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG ĐÀ LẠT</div>
+                  <div class="price"> <span class="originPrice"><span>450.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>300.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/7.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HẢI PHÒNG</div>
+                  <div class="price"> <span class="originPrice"><span>300.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>250.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/8.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HÀ TĨNH</div>
+                  <div class="price"> <span class="originPrice"><span>200.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>150.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row"> 
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/9.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HUẾ</div>
+                  <div class="price"> <span class="originPrice"><span>400.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>350.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/10.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG ĐÀ LẠT</div>
+                  <div class="price"> <span class="originPrice"><span>450.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>300.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/11.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HẢI PHÒNG</div>
+                  <div class="price"> <span class="originPrice"><span>300.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>250.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+                <div class="item col-6 col-sm-3"><img src="./../assets/products/12.jpg" alt="champagne"/>
+                  <div class="name">RƯỢU VANG HÀ TĨNH</div>
+                  <div class="price"> <span class="originPrice"><span>200.000</span><sup>đ</sup></span><span>&nbsp;&nbsp;</span><span class="salePrice"><span>150.000</span><sup>đ</sup></span></div>
+                  <div class="buttonText">ADD TO CART</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-content container-fluid"> 
+        <div class="row"> 
+          <div class="col-12 col-md-8">
+            <div class="title-container">
+              <div class="title">TIN TỨC &amp; BLOG</div><img src="./../assets/images/title-dark.png" alt=""/>
+            </div>
+            <div class="row">
+              <div class="news col-12 col-sm-6">
+                <div class="img"><img src="./../assets/images/Depositphotos_3010981_original1.jpg" alt=""/></div>
+                <div class="title">VÀNG THĂNG LONG CLASSIC</div>
+                <div class="description">Đăng bởi Google | 30/6/2015 | 60 bình luận</div>
+                <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been ...</p>
+                <div class="more">Read more</div>
+              </div>
+              <div class="news col-12 col-sm-6">
+                <div class="img"><img src="./../assets/images/Depositphotos_6971969_original-1240x698.jpg" alt=""/></div>
+                <div class="title">VÀNG THĂNG LONG CLASSIC</div>
+                <div class="description">Đăng bởi Google | 30/6/2015 | 60 bình luận</div>
+                <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ...</p>
+                <div class="more">Read more</div>
+              </div>
+            </div>
+          </div>
+          <div class="customer col-12 col-md-4">
+            <div class="title-container">
+              <div class="title">KHÁCH HÀNG</div><img src="./../assets/images/title-dark.png" alt=""/>
+            </div>
+            <div class="icon"><i class="fa fa-quote-right"></i></div>
+            <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ...</div>
+            <div class="readmore">Read more </div>
+            <div class="thumb-img"> <img src="./../assets/images/timthumb2.jpg" alt=""></div>
+            <div class="name">GIANG LT</div>
+            <div class="job">Graphic design </div>
+            <div class="pagi"> <i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i>
+            </div>
+          </div>
+        </div>
+        <div class="label row my-3">
+          <div class="item col-12 col-sm-4"><img src="./../assets/images/partner13.png" alt="fello"></div>
+          <div class="item col-12 col-sm-4"><img src="./../assets/images/partner14.png" alt="cole"></div>
+          <div class="item col-12 col-sm-4"><img src="./../assets/images/partner17.png" alt="temona"></div>
+        </div>
+      </div>
+    </main>
+    <footer> 
+      <div class="container-fluid"> 
+        <div class="row"> 
+          <div class="col-12 col-md-5">
+            <div class="row"> 
+              <div class="col-6">
+                <div class="title">THÔNG TIN</div>
+                <div class="item">VỀ CHÚNG TÔI</div>
+                <div class="item">GIAO HÀNG</div>
+                <div class="item">CẢM NGHĨ</div>
+                <div class="item">LƯU TRỮ</div>
+                <div class="item">CHÍNH SÁCH RIÊNG TƯ</div>
+              </div>
+              <div class="col-6">
+                <div class="title">MUA HÀNG</div>
+                <div class="item">VẬN CHUYỂN VÀ TRẢ HÀNG</div>
+                <div class="item">MUA HÀNG AN TOÀN</div>
+                <div class="item">VẬN QUỐC TẾ</div>
+                <div class="item">LIÊN KẾT</div>
+                <div class="item">DỊCH VỤ GIẢM GIÁ</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-7">
+            <div class="row"> 
+              <div class="send-email col-12 col-lg-6">
+                <div class="title">GỬI EMAIL</div>
+                <div class="description">Gửi email cho chúng tôi để được hỗ trợ</div>
+                <div class="input">
+                  <input type="text" placeholder="Enter your email">
+                  <div class="button">GỬI</div>
+                </div>
+                <div class="icons"> <i class="fa fa-twitter"></i><i class="fa fa-google-plus"></i><i class="fa fa-linkedin"></i><i class="fa fa-facebook"></i>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="title">LIÊN HỆ</div>
+                <div class="contact-item"><i class="fa fa-map-marker"></i><span>Tầng 4, Tòa nhà Hà Nội Group, số 442 Đội Cấn, P.Cổng Vị, Q.Ba Đình, Hà Nội</span></div>
+                <div class="contact-item"> <i class="fa fa-phone"> </i><span>(04) 66776677</span></div>
+                <div class="contact-item"> <i class="fa fa-envelope"> </i><span>support@bizweb.com</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright row">
+          <div class="col-12 col-md-6 p-0"><i class="fa fa-copyright"></i><span>&nbsp;Copyright 2008-2015 DKT Technology JSC</span></div>
+          <div class="banking col-12 col-md-6 p-0"><i class="fa fa-cc-visa"></i><i class="fa fa-cc-paypal"></i></div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
